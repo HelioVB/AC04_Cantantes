@@ -1,0 +1,108 @@
+
+@keyframes opacidad {
+    0%   {opacity: 0.25;}
+    25%  {opacity:  0.5;}
+    50%  {opacity:  0.75;}
+    100% {opacity:  1;}
+  }
+
+h1{
+    text-align: center;  
+    color: rgb(108, 52, 238);
+}
+
+h5{
+    text-align: center;  
+    color: rgb(108, 52, 238);
+}
+
+h6{
+    opacity: 0.1;
+    transform: opacity 3s;
+    animation-name: example;
+}
+
+p{
+    opacity: 0.1;
+}
+
+nav{
+    text-align: center;
+    color: rgb(108, 52, 238);
+}
+
+a{
+    padding: 30px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: bisque;
+    text-decoration:underline;
+}
+
+
+.imaginedragons{
+    background-image: url(ImagineDrangons.jpg);
+    margin: 5px;
+    padding: 2px;
+    height: 100px;
+    width: 200px;
+    transform: scale() 3s;
+}
+
+.imaginedragons:hover{
+    transform: scale(1.5);
+    animation-name: example;
+}
+
+
+.thebangles{
+    background-image: url(TheBangles.jpg);
+    margin: 5px;
+    padding: 2px;
+}
+
+.windrose{
+    background-image: url(WindRose.jpg);
+    margin: 5px;
+    padding: 2px;
+}
+
+.rickasley{
+    background-image: url(RickAsley.jpg);
+    margin: 5px;
+    padding: 2px;
+}
+
+.thewekend{
+    background-image: url(TheWekend.jpg);
+    margin: 5px;
+    padding: 2px;
+}
+
+.brunomars{
+    background-image: url(BrunoMars.jpg);
+    margin: 5px;
+    padding: 2px;
+}
+
+.bandas{
+    display: flex;
+    justify-content: center;
+}
+
+.cantantes{
+    display: flex;
+    justify-content: center;
+}
+
+.h6:hover{
+    transform: opacity 3s;
+    animation-name: example;
+}
+
+.cantantes:hover{
+    transform: opacity 3s;
+    animation-name: example;
+}
